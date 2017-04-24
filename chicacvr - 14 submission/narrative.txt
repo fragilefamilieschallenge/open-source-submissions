@@ -1,0 +1,4 @@
+This is the narrative description for model 6:
+6. Imputer (median), Standardize, No Feature Selection, Lasso CV
+
+MSE 0.37134
