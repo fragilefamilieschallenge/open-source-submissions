@@ -1,0 +1,21 @@
+After imputing the background file, there are still a lot of string objects which  
+could not be processed in the algorithm. Give the large number of features(12944), 
+the small number of string features may not have any significant effects on
+the predicting results. So I just ignored those string features, reducing the feature
+number from 12944 to 12798. 
+
+when training the background data, any sample that has NA value in the train.csv file was ignored too.
+
+In this submission, 
+lasso.py script was used to created the necessary variables which were then applied into SGD linear regression 
+to predict continous outcomes——gpa, grit and materialHardship.
+Logistic regression was applied to predict binary outcomes——eviction, layoff and jobtraining.
+
+In the SGD regression, penalty='l2',fit_intercept=True, alpha=1000, n_iter=200 have been used as parameters after
+looking at the RMSE and cross-validation scores on train data.
+In the logistic regression, the effect of C value on the predicting results is much less significant 
+since cross validation scores are almost the same when C values of different order-of-magnitude(1, 10, 100) were used.
+In this submission, 1 was used as C value to predict eviction and 10 was used as C value to predict layoff and jobtraining.
+
+The predictions were finnally added to train.csv and the NA values were replaced by mean value of each column of continous values
+as is shown  in the MissingDataScript.py file. For NA values in binary columns, the mode 0 was used to replace them.

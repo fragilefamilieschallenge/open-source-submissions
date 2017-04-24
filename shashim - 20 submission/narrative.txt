@@ -1,0 +1,16 @@
+COS 424 Fragile Families
+Viola Mocz (vmocz) & Sonia Hashim (shashim) 
+
+The submission contains all the code written for our project. The subdirectory results contains all of our previous scores and results. 
+
+Our best prediction results are submitted as our prediction. The model is described below:
+
+Predictions for gap, grit, material hardship. 
+
+For imputation, we used single imputation and replaced missing values with the median for each column. We also made some minor adjustments. For instance, if there were columns with one value in addition to NA we converted into a binary variable. We used the median as opposed to the mean because it is more robust to outliers. Of the 2121 labelled data provided, we removed entries where grit was missing. 
+
+We also use feature engineering creating mean features (averaging cols.) and maximum pooling features (taking the maximum of cols.) and combine features using similar questions asked across years. 
+
+We also add feature selection. We eliminate cols. with 60% or more missing data. We also score cols. according the variance of each col’s entries. The cols. with the bottom quantile of variances are removed. 
+
+For our model, we use ordinary linear regression. 

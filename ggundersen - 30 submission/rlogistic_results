@@ -1,0 +1,49 @@
+Number of features:		12133
+Number of nonzero features:	15
+
+--------------------------------------------------------------------------------
+0.005
+m2j15a: During those 2 wks, did you feel more tired and low on energy than usual?
+--------------------------------------------------------------------------------
+0.005
+m3b32g: Days/week: tell stories to child?
+--------------------------------------------------------------------------------
+0.005
+m3f2d10: What is tenth person's relationship to you?
+--------------------------------------------------------------------------------
+0.01
+m2j15c: During those 2 wks did you have more trouble falling asleep than usual?
+--------------------------------------------------------------------------------
+0.01
+m2j15f: During those 2 wks, did you think a lot about death?
+--------------------------------------------------------------------------------
+0.01
+m3a3e: About how many days did you see child in past 30 days?
+--------------------------------------------------------------------------------
+0.015
+m2j15b: During those 2 wks, did you gain or lose weight?
+--------------------------------------------------------------------------------
+0.015
+m2k17e1: How much did you receive past 12 mths working under the table?-($ Range)
+--------------------------------------------------------------------------------
+0.02
+m3f2f2: Is second person currently working?
+--------------------------------------------------------------------------------
+0.035
+m3a3b1: Does (person in A3A) receive any payment for taking care of child?
+--------------------------------------------------------------------------------
+0.04
+hv4l50  (He/She) steals outside the home
+--------------------------------------------------------------------------------
+0.11
+m3a3c: About how many months has child been living there? (months)
+--------------------------------------------------------------------------------
+0.115
+ffcc_centsurvey_b2
+--------------------------------------------------------------------------------
+0.125
+hv3pvnceil
+--------------------------------------------------------------------------------
+0.305
+m4a3: How many months ago did he/she stop living with you (monthst of the time)?
+--------------------------------------------------------------------------------

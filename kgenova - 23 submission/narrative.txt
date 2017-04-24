@@ -1,0 +1,10 @@
+The following models were used:
+GPA,Grit,Eviction,jobTraining fit by MultiClassElasticnetCVRFitter()
+materialHardship fit by ElasticNetRegressionFitter()
+Layoff fit by average-ensembling of separately fit ElasticNetRegressionFitter() and MultiClassElasticnetCVRFitter(), with previous CV settings for ElasticnetRegressionFitter. I think it's a fluke this model did (only very slightly) better than the MultiClassElasticnetCVRFitter() output. That is probably the better model to use.
+See a2models.py for specific model functionality.
+See compare_models.py for training and offline comparison code.
+See submit_models.py for prediction code and submission code.
+See average_models.py for manual average-ensembling.
+See make_X_y_from_background.py for data imputation.
+See a2core.py for all the reused helper functions throughout the rest of the code.

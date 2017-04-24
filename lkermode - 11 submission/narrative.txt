@@ -1,0 +1,2 @@
+Ridge Regression on binary features with k2000 feature selection, and k200 on jobTraining.
+Linear regression for continuous variables.
