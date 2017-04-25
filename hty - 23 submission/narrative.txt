@@ -1,0 +1,7 @@
+Author: Qiankun Niu (qniu@princeton.edu) and Kengran Yang (kengrany@princeton.edu)
+
+To run the model fitting in Python:
+hw2-regr.py and hw2-clf.py are the two driver programs to generate predictions of the six outcomes. To use, put all the .py files in the same directory as the input .csv files, and run the driver programs (preferably in ipython).
+
+To run the imputation script in R:
+Install relevant packages, and change the directory of data into the data file (line 12, 118, 177). Then the data can run without modification. Note that after line 181, those packages takes a lot of time to run.

@@ -1,0 +1,16 @@
+A large longitudinal dataset of feature values describing about four thousand
+children from mostly unmarried parents is treated as a black-box regression,
+in which a small set of response variables from the most recent wave of the
+survey is estimated using a subset of the more than twelve thousand predictor
+variables estimated over the course the participants' childhoods.
+
+Data is pre-processed by dropping columns with an excessive count of missing
+values, imputing remaining missing values with per-column modes, and converting
+categorical variables to a one-hot encoding.
+
+Methods used include radial basis function support vector machine regression,
+as well as ridge, LASSO, and elastic net regression, with best results being
+obtained from the last of these. Directions for future work are discussed,
+including performing linear and nonlinear dimension-reduction on the predictor
+features, as well as using matrix- and manifold-completion methods in place of
+simple modal imputation.
