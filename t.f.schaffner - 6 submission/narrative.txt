@@ -1,0 +1,1 @@
+We used random forest regression and classification to predict all output variables. We employed scikit-learn's implementations to train the prediction models and tune hyperparameters. We removed all features from the background dataset that had any string or N/A values. All negative values were replaced with the value 1.

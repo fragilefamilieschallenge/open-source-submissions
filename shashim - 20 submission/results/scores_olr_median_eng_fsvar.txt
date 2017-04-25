@@ -1,0 +1,7 @@
+GPA: 2.74103
+Grit:0.93427
+Material_hardship:0.10924
+Eviction:0.05341
+Layoff:0.17435
+Job_training:0.20224
+Number_of_ids: 4242
